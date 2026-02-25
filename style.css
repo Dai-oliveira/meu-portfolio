@@ -1,10 +1,10 @@
 ﻿:root {
-  --bg-main: #f6f4ef;
-  --bg-alt: #edf3ec;
+  --bg-main: #f8f6f2;
+  --bg-alt: #eaf1ea;
   --white: #ffffff;
-  --text-main: #202925;
-  --text-soft: #434f49;
-  --accent: #7c9a87;
+  --text-main: #1f2a25;
+  --text-soft: #46524b;
+  --accent: #6e8e7c;
   --accent-dark: #5f7f6f;
   --shadow: 0 10px 30px rgba(70, 86, 78, 0.12);
   --radius-lg: 24px;
@@ -26,7 +26,7 @@ html {
 body {
   font-family: "Nunito", sans-serif;
   color: var(--text-main);
-  background: linear-gradient(145deg, #fcfbf8 0%, #f2f6f0 100%);
+  background: linear-gradient(145deg, #fdfbf8 0%, #eef4ee 100%);
   line-height: 1.6;
 }
 
@@ -161,9 +161,9 @@ a {
   display: flex;
   align-items: center;
   background:
-    radial-gradient(circle at 20% 20%, rgba(124, 154, 135, 0.18), transparent 38%),
-    radial-gradient(circle at 90% 30%, rgba(204, 188, 166, 0.25), transparent 35%),
-    linear-gradient(150deg, #faf8f4 0%, #eef4ec 100%);
+    radial-gradient(circle at 20% 20%, rgba(110, 142, 124, 0.2), transparent 38%),
+    radial-gradient(circle at 90% 30%, rgba(208, 194, 172, 0.2), transparent 35%),
+    linear-gradient(150deg, #faf8f3 0%, #edf3ec 100%);
 }
 
 .hero-content {
@@ -207,7 +207,7 @@ a {
   gap: 8px;
   padding: 14px 28px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #6f8f7d, #88a794);
+  background: linear-gradient(135deg, #5f7f6f, #7fa08d);
   color: #fff;
   font-weight: 700;
   box-shadow: var(--shadow);
@@ -365,7 +365,7 @@ a {
 
 .footer {
   padding: 26px 0;
-  background: #e7efe8;
+  background: #e3ede3;
   text-align: center;
   color: var(--text-soft);
   font-size: 0.95rem;
