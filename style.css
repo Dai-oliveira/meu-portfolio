@@ -433,6 +433,24 @@ a {
     padding: 60px 0 70px;
   }
 
+  .service-card {
+    min-height: 300px;
+  }
+
+  .service-card::after {
+    background: linear-gradient(180deg, rgba(18, 28, 23, 0.08) 15%, rgba(18, 28, 23, 0.42) 100%);
+  }
+
+  .service-card img {
+    opacity: 0.62;
+  }
+
+  .service-card-body {
+    width: min(90%, 340px);
+    background: rgba(20, 29, 25, 0.34);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.38);
+  }
+
   .testimonials-grid {
     grid-template-columns: 1fr;
   }
